@@ -1,0 +1,23 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# TypeScript and JavaScript files
+*.ts text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+
+# Documentation
+*.md text eol=lf
+
+# Configuration files
+.eslintrc* text eol=lf
+.prettierrc* text eol=lf
+tsconfig*.json text eol=lf
+
+# SVG files
+*.svg text eol=lf
+
+# Ensure these files always have LF line endings on checkout
+package.json text eol=lf
+README.md text eol=lf
+LICENSE.md text eol=lf
